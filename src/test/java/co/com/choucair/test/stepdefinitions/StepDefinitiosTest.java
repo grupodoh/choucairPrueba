@@ -5,6 +5,7 @@ import co.com.choucair.test.tasks.Cargar;
 import co.com.choucair.test.tasks.IngresarDatos;
 
 
+import co.com.choucair.test.tasks.IngresarUbicacion;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -28,7 +29,8 @@ public class StepDefinitiosTest {
 
     @When("juan ingresa la informacion correctamente")
     public void juan_ingresa_la_informacion_correctamente() throws Exception{
-        OnStage.theActorInTheSpotlight().attemptsTo(IngresarDatos.Pagina("Juan", "Moncaleano", "juanmonca1075@gmail.com", "August", "25", "1987"));
+        OnStage.theActorInTheSpotlight().attemptsTo(IngresarDatos.Pagina("Juan", "Moncaleano", "juanmonca1075@gmail.com", "August", "25", "1987"),
+                IngresarUbicacion.pagina("Neiva","410001","Colombia"));
     }
 
     @Then("se completa el registro en la pagina")

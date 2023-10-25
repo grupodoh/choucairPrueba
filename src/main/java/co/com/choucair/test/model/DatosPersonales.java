@@ -8,6 +8,34 @@ public class DatosPersonales {
     private String Mes;
     private String Anio;
     private String Dia;
+    private String Ciudad;
+    private String Codigo_Postal;
+    private String Pais;
+
+    public String getCiudad() {
+        return Ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        Ciudad = ciudad;
+    }
+
+    public String getCodigo_Postal() {
+        return Codigo_Postal;
+    }
+
+    public void setCodigo_Postal(String codigo_Postal) {
+        Codigo_Postal = codigo_Postal;
+    }
+
+    public String getPais() {
+        return Pais;
+    }
+
+    public void setPais(String pais) {
+        Pais = pais;
+    }
+
 
     public String getNombre() {
         return Nombre;

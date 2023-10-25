@@ -5,7 +5,9 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.Scroll;
 
+import static co.com.choucair.test.userinterface.InformacionDireccion.BOTOB_CONTINUAR_DISPOSITIVOS;
 import static co.com.choucair.test.userinterface.InformacionDispositivos.*;
 
 public class IngresarDispositivos implements Task {
@@ -48,6 +50,7 @@ public class IngresarDispositivos implements Task {
                 Enter.theValue(Modelo_Dispositivo).into(MODELO_TEXTO),
                 Click.on(VERSION_SO_MOVIL_CONT),
                 Enter.theValue(Verion_So_Movil).into(VERSION_SO_MOVIL_TEXT),
+                Scroll.to(BOTON_CONTINUAR_ULTIMA_FASE),
                 Click.on(BOTON_CONTINUAR_ULTIMA_FASE));
     }
 

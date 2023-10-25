@@ -36,14 +36,18 @@ public class IngresarDispositivos implements Task {
     @Override
     public <T extends Actor> void performAs(T actor){
         actor.attemptsTo(
-                Click.on(So_Pc),
-                Enter.theValue(So_Pc).into(SO_PC),
-                Click.on(Version_So),
-                Enter.theValue(Version_So).into(VERSION_SO),
-                Enter.theValue(Idioma_So).into(IDIOMA_SO),
-                Enter.theValue(Dispositivo_Movil).into(DISPOSITIVO_MOVIL),
-                Enter.theValue(Modelo_Dispositivo).into(MODELO),
-                Enter.theValue(Verion_So_Movil).into(VERSION_SO_MOVIL),
+                Click.on(SO_PC_CONT),
+                Enter.theValue(So_Pc).into(SO_PC_TEXTO),
+                Click.on(VERSION_SO_CONT),
+                Enter.theValue(Version_So).into(VERSION_SO_TEXTO),
+                Click.on(IDIOMA_SO_CONT),
+                Enter.theValue(Idioma_So).into(IDIOMA_SO_TEXTO),
+                Click.on(DISPOSITIVO_MOVIL_CONT),
+                Enter.theValue(Dispositivo_Movil).into(DISPOSITIVO_MOVIL_TEXTO),
+                Click.on(MODELO_CONT),
+                Enter.theValue(Modelo_Dispositivo).into(MODELO_TEXTO),
+                Click.on(VERSION_SO_MOVIL_CONT),
+                Enter.theValue(Verion_So_Movil).into(VERSION_SO_MOVIL_TEXT),
                 Click.on(BOTON_CONTINUAR_ULTIMA_FASE));
     }
 

@@ -7,11 +7,9 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.actions.Scroll;
-import org.checkerframework.common.subtyping.qual.Bottom;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.remote.server.handler.interactions.touch.Down;
 
-import static co.com.choucair.test.userinterface.InformacionDireccionPagina.*;
+import static co.com.choucair.test.userinterface.InformacionDireccion.*;
 public class IngresarUbicacion implements Task {
 
     private final String Ciudad;

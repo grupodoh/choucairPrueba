@@ -1,6 +1,5 @@
 package co.com.choucair.test.tasks;
 
-import co.com.choucair.test.model.DatosPersonales;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -9,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 
 
-import static co.com.choucair.test.userinterface.InformacionPersonalPagina.*;
+import static co.com.choucair.test.userinterface.InformacionPersonal.*;
 
 
 public class IngresarDatos implements Task {

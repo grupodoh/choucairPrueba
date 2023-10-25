@@ -1,0 +1,44 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+buildscript {
+    repositories {
+
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.89")
+    }
+}
+ext{
+    serenityVersion = '2.0.86'
+    serenityCucumberVersion = '1.9.49'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.assertj:assertj-core:3.12.2'
+    testImplementation "net.serenity-bdd:serenity-core:3.0.5"
+    testImplementation "net.serenity-bdd:serenity-junit:3.0.5"
+    implementation "net.serenity-bdd:serenity-screenplay:3.0.5"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:3.0.5"
+    implementation "net.serenity-bdd:serenity-cucumber:3.0.5"
+
+    implementation 'io.cucumber:cucumber-java:4.10.0'
+    implementation 'io.cucumber:cucumber-junit:4.10.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'ch.qos.logback:logback-classic:1.2.6'
+
+}
+gradle.startParameter.continueOnFailure = true

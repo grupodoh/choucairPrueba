@@ -1,10 +1,6 @@
 
-m
-=src/main/java/co/com/choucair/test/model/DatosPersonales.java,5\f\5f18379fd6861e32e0888a6603addd3bf703d420
 C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
-
-Osrc/main/java/co/com/choucair/test/userinterface/InformacionPersonalPagina.java,3\9\392fed72ccf424cb3e3a8bee36be7f5d3db6f822
 q
 Asrc/main/java/co/com/choucair/test/userinterface/UtestPagina.java,2\4\243db0d06a60fbe3dc6e1139a65ea33cd356b782
 z

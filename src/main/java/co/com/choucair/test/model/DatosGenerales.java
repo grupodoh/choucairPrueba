@@ -17,6 +17,25 @@ public class DatosGenerales {
     private  String Dispositivo_Movil;
     private  String Modelo_Dispositivo;
     private  String Verion_So_Movil;
+    private  String PASSWORD;
+    private  String PASSWORD2;
+
+    public String getPASSWORD() {
+        return PASSWORD;
+    }
+
+    public void setPASSWORD(String PASSWORD) {
+        this.PASSWORD = PASSWORD;
+    }
+
+    public String getPASSWORD2() {
+        return PASSWORD2;
+    }
+
+    public void setPASSWORD2(String PASSWORD2) {
+        this.PASSWORD2 = PASSWORD2;
+    }
+
 
     public String getSo_Pc() {
         return So_Pc;

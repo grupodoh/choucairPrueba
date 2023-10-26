@@ -1,0 +1,36 @@
+Registro de Usuario en uTest
+
+Descripción:
+Como usuario nuevo interesado en unirme a la plataforma uTest, quiero poder registrarme de manera sencilla y rápida, proporcionando la información necesaria en varios pasos para acceder a las oportunidades de prueba de software.
+
+Criterios de Aceptación:
+
+Paso 1: Datos Básicos Personales
+
+	•	El usuario debe acceder a la página de registro de uTest.
+	•	Se le debe solicitar su nombre, apellidos y dirección de correo electrónico.
+	•	Los campos de nombre y apellidos deben aceptar solo caracteres válidos.
+	•	La dirección de correo electrónico debe ser única y válida.
+
+Paso 2: Ubicación
+
+	•	Después de completar los datos personales, se debe solicitar la ubicación del usuario.
+	•	Se le debe pedir que ingrese suciudad, código postal y país.
+	•	Debe haber una validación para asegurarse de quela ciudad y el país sea válido y el código postal esté en el formato correcto.
+
+Paso 3: Selección de Tipos de Dispositivos
+
+	•	El usuario debe ser dirigido a una página donde pueda seleccionar los tipos de dispositivos con los que está familiarizado.
+	•	Debe haber una lista de dispositivos, como teléfonos, tabletas, computadoras, etc.
+	•	El usuario debe poder seleccionar los tipos de dispositivos que mejor representen su experiencia.
+
+Paso 4: Creación de Contraseña
+
+	•	En este paso, se le debe pedir al usuario que cree una contraseña segura.
+	•	La contraseña debe cumplir con ciertos criterios de seguridad, como longitud mínima, caracteres especiales, letras mayúsculas y números.
+	•	Se debe requerir la confirmación de la contraseña para evitar errores tipográficos.
+	•	El usuario debe recibir un mensaje de confirmación una vez completado este paso.
+
+Flujo Alternativo:
+
+	•	Si en cualquier paso se ingresan datos inválidos, el sistema debe mostrar mensajes de error y permitir al usuario corregir.

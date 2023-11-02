@@ -1,6 +1,5 @@
 package co.com.choucair.test.tasks;
 
-import jnr.ffi.annotations.Clear;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

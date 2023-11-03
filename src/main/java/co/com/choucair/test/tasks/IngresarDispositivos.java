@@ -34,13 +34,18 @@ public class IngresarDispositivos implements Task {
     public <T extends Actor> void performAs(T actor){
         actor.attemptsTo(
                 Click.on(DISPOSITIVO_MOVIL_CONT),
-                Enter.theValue(Dispositivo_Movil).into(DISPOSITIVO_MOVIL_TEXTO).thenHit(Keys.ARROW_DOWN).thenHit(Keys.ENTER),
+                Enter.theValue(Dispositivo_Movil).into(DISPOSITIVO_MOVIL_INPUT)
+                        .thenHit(Keys.ARROW_DOWN)
+                        .thenHit(Keys.ENTER),
                 Click.on(MODELO_CONT),
-                Enter.theValue(Modelo_Dispositivo).into(MODELO_TEXTO).thenHit(Keys.ARROW_DOWN).thenHit(Keys.ENTER),
+                Enter.theValue(Modelo_Dispositivo).into(MODEL_INPUT)
+                        .thenHit(Keys.ARROW_DOWN)
+                        .thenHit(Keys.ENTER),
                 Click.on(VERSION_SO_MOVIL_CONT),
-                Enter.theValue(Verion_So_Movil).into(VERSION_SO_MOVIL_TEXT).thenHit(Keys.ARROW_DOWN).thenHit(Keys.ENTER),
+                Enter.theValue(Verion_So_Movil).into(VERSION_SO_MOVIL_INPUT),
                 Scroll.to(BOTON_CONTINUAR_ULTIMA_FASE),
                 Click.on(BOTON_CONTINUAR_ULTIMA_FASE));
+
     }
 
 }

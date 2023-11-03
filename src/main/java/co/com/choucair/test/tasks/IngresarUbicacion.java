@@ -25,12 +25,9 @@ public class IngresarUbicacion implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor){
-        actor.attemptsTo(Enter.theValue(Ciudad).into(CIUDAD)
-                     .thenHit(Keys.ARROW_DOWN)
-                        .thenHit(Keys.ENTER),
+        actor.attemptsTo(Click.on(CIUDAD),
+                Enter.theValue(Ciudad).into(CIUDAD),
                 Enter.theValue(Codigo_Postal).into(CODIGO_POSTAL),
-                Click.on(CAJA_DE_PAISES),
-                Enter.theValue(Pais).into(PAIS),
                 Scroll.to(BOTOB_CONTINUAR_DISPOSITIVOS),
                 Click.on(BOTOB_CONTINUAR_DISPOSITIVOS));
 

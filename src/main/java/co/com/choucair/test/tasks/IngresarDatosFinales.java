@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.Scroll;
 
 import static co.com.choucair.test.userinterface.FinRegistro.*;
 
@@ -30,7 +31,7 @@ public class IngresarDatosFinales implements Task {
                 Click.on(MANTENTE_INFORMADO),
                 Click.on(ACEPTA_TERMINOS),
                 Click.on(ACEPTA_POLITICAS),
-                Click.on(BOTON_FIN_CONFIGURACION));
+                Scroll.to(BOTON_FIN_CONFIGURACION));
 
     }
 }

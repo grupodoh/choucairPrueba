@@ -2,159 +2,174 @@ package co.com.choucair.test.model;
 
 public class DatosGenerales {
 
-    private String Nombre;
-    private String Apellido;
-    private String Correo;
-    private String Mes;
-    private String Anio;
-    private String Dia;
-    private String Ciudad;
-    private String Codigo_Postal;
-    private String Pais;
-    private  String So_Pc;
-    private  String Version_So;
-    private  String Idioma_So;
-    private  String Dispositivo_Movil;
-    private  String Modelo_Dispositivo;
-    private  String Verion_So_Movil;
-    private  String PASSWORD;
-    private  String PASSWORD2;
+    private String stNombre;
+    private String stApellido;
+    private String stCorreo;
+    private String stgMes;
+    private String stAnio;
+    private String stgDia;
+    private String stCiudad;
+    private String stCodigo_Postal;
+    private String stgPais;
+    private  String stSo_Pc;
+    private  String stVersion_So;
+    private  String stIdioma_So;
+    private  String stDispositivo_Movil;
 
-    public String getPASSWORD() {
-        return PASSWORD;
+    private  String stModelo_Dispositivo;
+    private  String stVerion_So_Movil;
+    private  String stPASSWORD;
+    private  String stPASSWORD2;
+    private String stTextoFinal1;
+
+    public String getStNombre() {
+        return stNombre;
     }
 
-    public void setPASSWORD(String PASSWORD) {
-        this.PASSWORD = PASSWORD;
+    public void setStNombre(String stNombre) {
+        this.stNombre = stNombre;
     }
 
-    public String getPASSWORD2() {
-        return PASSWORD2;
+    public String getStApellido() {
+        return stApellido;
     }
 
-    public void setPASSWORD2(String PASSWORD2) {
-        this.PASSWORD2 = PASSWORD2;
+    public void setStApellido(String stApellido) {
+        this.stApellido = stApellido;
+    }
+
+    public String getStCorreo() {
+        return stCorreo;
+    }
+
+    public void setStCorreo(String stCorreo) {
+        this.stCorreo = stCorreo;
+    }
+
+    public String getStgMes() {
+        return stgMes;
+    }
+
+    public void setStgMes(String stgMes) {
+        this.stgMes = stgMes;
+    }
+
+    public String getStAnio() {
+        return stAnio;
+    }
+
+    public void setStAnio(String stAnio) {
+        this.stAnio = stAnio;
+    }
+
+    public String getStgDia() {
+        return stgDia;
+    }
+
+    public void setStgDia(String stgDia) {
+        this.stgDia = stgDia;
+    }
+
+    public String getStCiudad() {
+        return stCiudad;
+    }
+
+    public void setStCiudad(String stCiudad) {
+        this.stCiudad = stCiudad;
+    }
+
+    public String getStCodigo_Postal() {
+        return stCodigo_Postal;
+    }
+
+    public void setStCodigo_Postal(String stCodigo_Postal) {
+        this.stCodigo_Postal = stCodigo_Postal;
+    }
+
+    public String getStgPais() {
+        return stgPais;
+    }
+
+    public void setStgPais(String stgPais) {
+        this.stgPais = stgPais;
+    }
+
+    public String getStSo_Pc() {
+        return stSo_Pc;
+    }
+
+    public void setStSo_Pc(String stSo_Pc) {
+        this.stSo_Pc = stSo_Pc;
+    }
+
+    public String getStVersion_So() {
+        return stVersion_So;
+    }
+
+    public void setStVersion_So(String stVersion_So) {
+        this.stVersion_So = stVersion_So;
+    }
+
+    public String getStIdioma_So() {
+        return stIdioma_So;
+    }
+
+    public void setStIdioma_So(String stIdioma_So) {
+        this.stIdioma_So = stIdioma_So;
+    }
+
+    public String getStDispositivo_Movil() {
+        return stDispositivo_Movil;
+    }
+
+    public void setStDispositivo_Movil(String stDispositivo_Movil) {
+        this.stDispositivo_Movil = stDispositivo_Movil;
+    }
+
+    public String getStModelo_Dispositivo() {
+        return stModelo_Dispositivo;
+    }
+
+    public void setStModelo_Dispositivo(String stModelo_Dispositivo) {
+        this.stModelo_Dispositivo = stModelo_Dispositivo;
+    }
+
+    public String getStVerion_So_Movil() {
+        return stVerion_So_Movil;
+    }
+
+    public void setStVerion_So_Movil(String stVerion_So_Movil) {
+        this.stVerion_So_Movil = stVerion_So_Movil;
+    }
+
+    public String getStPASSWORD() {
+        return stPASSWORD;
+    }
+
+    public void setStPASSWORD(String stPASSWORD) {
+        this.stPASSWORD = stPASSWORD;
+    }
+
+    public String getStPASSWORD2() {
+        return stPASSWORD2;
+    }
+
+    public void setStPASSWORD2(String stPASSWORD2) {
+        this.stPASSWORD2 = stPASSWORD2;
+    }
+
+    public String getStTextoFinal1() {
+        return stTextoFinal1;
+    }
+
+    public void setStTextoFinal1(String stTextoFinal1) {
+        this.stTextoFinal1 = stTextoFinal1;
     }
 
 
-    public String getSo_Pc() {
-        return So_Pc;
-    }
-
-    public void setSo_Pc(String so_Pc) {
-        So_Pc = so_Pc;
-    }
-
-    public String getVersion_So() {
-        return Version_So;
-    }
-
-    public void setVersion_So(String version_So) {
-        Version_So = version_So;
-    }
-
-    public String getIdioma_So() {
-        return Idioma_So;
-    }
-
-    public void setIdioma_So(String idioma_So) {
-        Idioma_So = idioma_So;
-    }
-
-    public String getDispositivo_Movil() {
-        return Dispositivo_Movil;
-    }
-
-    public void setDispositivo_Movil(String dispositivo_Movil) {
-        Dispositivo_Movil = dispositivo_Movil;
-    }
-
-    public String getModelo_Dispositivo() {
-        return Modelo_Dispositivo;
-    }
-
-    public void setModelo_Dispositivo(String modelo_Dispositivo) {
-        Modelo_Dispositivo = modelo_Dispositivo;
-    }
-
-    public String getVerion_So_Movil() {
-        return Verion_So_Movil;
-    }
-
-    public void setVerion_So_Movil(String verion_So_Movil) {
-        Verion_So_Movil = verion_So_Movil;
-    }
-
-    public String getCiudad() {
-        return Ciudad;
-    }
-
-    public void setCiudad(String ciudad) {
-        Ciudad = ciudad;
-    }
-
-    public String getCodigo_Postal() {
-        return Codigo_Postal;
-    }
-
-    public void setCodigo_Postal(String codigo_Postal) {
-        Codigo_Postal = codigo_Postal;
-    }
-
-    public String getPais() {
-        return Pais;
-    }
-
-    public void setPais(String pais) {
-        Pais = pais;
-    }
 
 
-    public String getNombre() {
-        return Nombre;
-    }
 
-    public void setNombre(String nombre) {
-        this.Nombre = nombre;
-    }
 
-    public String getApellido() {
-        return Apellido;
-    }
 
-    public void setApellido(String apellido) {
-        this.Apellido = apellido;
-    }
-
-    public String getCorreo() {
-        return Correo;
-    }
-
-    public void setCorreo(String correo) {
-        this.Correo = correo;
-    }
-
-    public String getMes() {
-        return Mes;
-    }
-
-    public void setMes(String mes) {
-        this.Mes = mes;
-    }
-
-    public String getAnio() {
-        return Anio;
-    }
-
-    public void setAnio(String anio) {
-        this.Anio = anio;
-    }
-
-    public String getDia() {
-        return Dia;
-    }
-
-    public void setDia(String dia) {
-        this.Dia = dia;
-    }
 }
